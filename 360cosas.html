@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Visor 360</title>
+  <script src="https://pannellum.org/js/pannellum.js"></script>
+  <link href="https://pannellum.org/css/pannellum.css" rel="stylesheet"/>
+</head>
+<body style="margin:0;">
+  <div id="panorama" style="width:100vw;height:100vh;"></div>
+  <script>
+    pannellum.viewer('panorama', {
+      "type": "equirectangular",
+      "panorama": "panorama.jpg"
+    });
+  </script>
+</body>
+</html>
